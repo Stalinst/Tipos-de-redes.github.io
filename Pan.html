@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red PAN</title>
+  <link rel="shortcut icon" type="image/x-icon" href="pan.ico">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #3a0ca3, #7209b7, #f72585);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      background-image: url('pan.gif');
+      background-size: cover;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 25px;
+      border-bottom: 3px solid #ff66c4;
+      box-shadow: 0 2px 20px rgba(255, 100, 200, 0.5);
+    }
+
+    header h1 {
+      color: #ff99e6;
+      font-size: 45px;
+      text-shadow: 2px 2px 10px #000;
+    }
+
+    header p {
+      font-size: 20px;
+      color: #ffe6f9;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(0, 0, 0, 0.75);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 100, 200, 0.3);
+      animation: fadeIn 1.5s ease;
+    }
+
+    section h2 {
+      color: #ff80d5;
+      font-size: 30px;
+      text-shadow: 0 0 8px #ff66c4;
+      border-bottom: 2px solid #ff99e6;
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      text-align: justify;
+      color: #ffe6f9;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #fddaff;
+      line-height: 1.8;
+    }
+
+    li::marker {
+      color: #ff66c4;
+    }
+
+    .ejemplo {
+      background: rgba(255, 150, 220, 0.1);
+      border-left: 4px solid #ff99e6;
+      padding: 15px 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+      color: #ff99e6;
+      margin-top: 40px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    a.volver {
+      display: inline-block;
+      margin-top: 20px;
+      background: #ff66c4;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a.volver:hover {
+      background: #ff99e6;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Red PAN (Personal Area Network)</h1>
+    <p>Conexión personal entre dispositivos cercanos</p>
+  </header>
+
+  <section>
+    <h2>¿Qué es una Red PAN?</h2>
+    <p>
+      Una <strong>Red PAN (Personal Area Network)</strong> es una red de corto alcance utilizada para conectar dispositivos personales cercanos entre sí, como teléfonos móviles, laptops, tabletas, relojes inteligentes o auriculares.  
+      Su propósito principal es <strong>intercambiar información</strong> y recursos entre los dispositivos de una misma persona o en un entorno muy reducido.
+    </p>
+  </section>
+
+  <div style="text-align:center; margin-top:20px;">
+    <img src="Pan.jpg" alt="Ejemplo de Red PAN" width="500" style="border-radius:15px; box-shadow:0 0 20px rgba(255,100,200,0.4);">
+    <p style="font-size:16px; color:#fa00c0; margin-top:10px;">Ejemplo visual de una red PAN conectando dispositivos personales</p>
+  </div>
+
+  <section>
+    <h2>Características principales</h2>
+    <ul>
+      <li>Alcance muy corto, generalmente hasta 10 metros.</li>
+      <li>Utiliza tecnologías como Bluetooth, Wi-Fi Direct o USB.</li>
+      <li>Diseñada para conectar dispositivos personales.</li>
+      <li>Bajo consumo de energía.</li>
+      <li>Configuración sencilla y rápida.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ventajas de una Red PAN</h2>
+    <ul>
+      <li>Permite conectar fácilmente dispositivos personales sin necesidad de cables.</li>
+      <li>Ideal para sincronizar datos entre teléfonos, computadoras y relojes inteligentes.</li>
+      <li>Requiere poca configuración técnica.</li>
+      <li>Consumo energético bajo en comparación con otros tipos de redes.</li>
+      <li>Fácil de transportar y usar en cualquier lugar.</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Desventajas de una Red PAN</h2>
+    <ul>
+      <li>Alcance muy limitado.</li>
+      <li>Velocidad de transmisión más baja que otros tipos de redes.</li>
+      <li>Puede sufrir interferencias con otros dispositivos cercanos.</li>
+      <li>Menor nivel de seguridad si no se configuran correctamente los permisos.</li>
+      <li>Dependencia de la batería de los dispositivos conectados.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ejemplo de una Red PAN</h2>
+    <div class="ejemplo">
+      <p>
+        Cuando un <strong>teléfono móvil</strong> se conecta por <strong>Bluetooth</strong> a unos auriculares inalámbricos o a un smartwatch, se está utilizando una Red PAN.  
+        Del mismo modo, cuando una laptop comparte archivos con un teléfono mediante <strong>Wi-Fi Direct</strong>, ambos forman parte de una red personal temporal.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>📱 Página informativa sobre la Red PAN</p>
+    <a href="tipos de redes.html" class="volver">⬅ Volver a Tipos de Redes</a>
+  </footer>
+
+</body>
+</html>

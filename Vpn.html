@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red VPN</title>
+  <link rel="shortcut icon" type="image/x-icon" href="vpn.ico">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0a1f44, #001f54, #003366);
+      color: #cce7ff;
+      margin: 0;
+      padding: 0;
+      background-image: url('vpn.gif');
+      background-size: cover;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 25px;
+      border-bottom: 3px solid #00d1ff;
+      box-shadow: 0 2px 25px rgba(0, 209, 255, 0.5);
+    }
+
+    header h1 {
+      color: #00f0ff;
+      font-size: 45px;
+      text-shadow: 2px 2px 10px #000;
+    }
+
+    header p {
+      font-size: 20px;
+      color: #cce7ff;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 950px;
+      margin: 40px auto;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0, 209, 255, 0.3);
+      animation: fadeIn 1.5s ease;
+    }
+
+    section h2 {
+      color: #00d1ff;
+      font-size: 30px;
+      text-shadow: 0 0 8px #00aaff;
+      border-bottom: 2px solid #00f0ff;
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      text-align: justify;
+      color: #cce7ff;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #99e0ff;
+      line-height: 1.8;
+    }
+
+    li::marker {
+      color: #00d1ff;
+    }
+
+    .ejemplo {
+      background: rgba(0, 240, 255, 0.1);
+      border-left: 4px solid #00d1ff;
+      padding: 15px 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+      color: #00f0ff;
+      margin-top: 40px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    a.volver {
+      display: inline-block;
+      margin-top: 20px;
+      background: #00d1ff;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a.volver:hover {
+      background: #00f0ff;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Red VPN (Virtual Private Network)</h1>
+    <p>Conexión segura y privada a través de Internet</p>
+  </header>
+
+  <section>
+    <h2>¿Qué es una Red VPN?</h2>
+    <p>
+      Una <strong>Red VPN (Virtual Private Network)</strong> es una tecnología que permite crear una conexión segura y cifrada sobre una red pública, generalmente Internet.  
+      Su objetivo principal es <strong>proteger la privacidad y seguridad de los datos</strong> mientras se transmiten entre el dispositivo del usuario y la red de destino.
+    </p>
+  </section>
+
+  <div style="text-align:center; margin-top:20px;">
+    <img src="vpn.jpg" alt="Ejemplo de Red VPN" width="500" style="border-radius:15px; box-shadow:0 0 20px rgba(0,209,255,0.4);">
+    <p style="font-size:16px; color:#08b3fc; margin-top:10px;">Ejemplo visual de cómo una VPN protege la conexión de un usuario a Internet</p>
+  </div>
+
+  <section>
+    <h2>Características principales</h2>
+    <ul>
+      <li>Cifrado de datos entre el dispositivo y la red de destino.</li>
+      <li>Oculta la dirección IP del usuario, protegiendo la identidad.</li>
+      <li>Permite acceder a redes privadas desde ubicaciones remotas.</li>
+      <li>Funciona sobre redes públicas, como Internet.</li>
+      <li>Compatible con computadoras, smartphones y dispositivos móviles.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ventajas de una Red VPN</h2>
+    <ul>
+      <li>Mayor seguridad y privacidad de la información transmitida.</li>
+      <li>Acceso remoto a redes corporativas o privadas.</li>
+      <li>Evita restricciones geográficas y censura de contenido.</li>
+      <li>Protege las conexiones Wi-Fi públicas de posibles ataques.</li>
+      <li>Fácil de instalar y configurar en la mayoría de dispositivos.</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Desventajas de una Red VPN</h2>
+    <ul>
+      <li>Puede reducir la velocidad de la conexión a Internet.</li>
+      <li>Dependencia de la calidad del servicio del proveedor de VPN.</li>
+      <li>No garantiza protección total contra malware o ataques avanzados.</li>
+      <li>Algunas VPN gratuitas pueden registrar datos del usuario.</li>
+      <li>Configuración incorrecta puede generar vulnerabilidades.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ejemplo de una Red VPN</h2>
+    <div class="ejemplo">
+      <p>
+        Un empleado que trabaja desde casa utiliza una <strong>VPN corporativa</strong> para conectarse de forma segura a la red de su empresa, accediendo a archivos y aplicaciones internas como si estuviera físicamente en la oficina.  
+        Del mismo modo, un usuario común puede usar una VPN para navegar en Wi-Fi público de forma segura y proteger sus datos personales.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>🔒 Página informativa sobre la Red VPN</p>
+    <a href="tipos de redes.html" class="volver">⬅ Volver a Tipos de Redes</a>
+  </footer>
+
+</body>
+</html>
